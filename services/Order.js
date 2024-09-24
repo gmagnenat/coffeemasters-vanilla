@@ -1,4 +1,4 @@
-import { getProductById } from "./Menu";
+import { getProductById } from "./Menu.js";
 
 export async function addToCart(id) {
   const product = await getProductById(id);
